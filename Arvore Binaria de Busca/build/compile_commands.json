@@ -1,0 +1,17 @@
+[
+{
+  "directory": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore Binaria de Busca/build",
+  "command": "\"G:\\Compiladores e Interpretadores\\C++\\msys64\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\arvore-binaria-de-busca-c++.dir\\src\\main.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Arvore Binaria de Busca\\src\\main.cpp\"",
+  "file": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore Binaria de Busca/src/main.cpp"
+},
+{
+  "directory": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore Binaria de Busca/build",
+  "command": "\"G:\\Compiladores e Interpretadores\\C++\\msys64\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\arvore-binaria-de-busca-c++.dir\\src\\arvore_binaria.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Arvore Binaria de Busca\\src\\arvore_binaria.cpp\"",
+  "file": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore Binaria de Busca/src/arvore_binaria.cpp"
+},
+{
+  "directory": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore Binaria de Busca/build",
+  "command": "\"G:\\Compiladores e Interpretadores\\C++\\msys64\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\arvore-binaria-de-busca-c++.dir\\src\\no.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Arvore Binaria de Busca\\src\\no.cpp\"",
+  "file": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore Binaria de Busca/src/no.cpp"
+}
+]

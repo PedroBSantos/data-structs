@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila de Prioridade/include/fila.h
+malloc.h
+-
+
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila de Prioridade/src/main.cpp
+../include/fila.h
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila de Prioridade/include/fila.h
+ctime
+-
+iostream
+-
+

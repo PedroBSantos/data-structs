@@ -45,6 +45,5 @@ int main()
     {
         std::cout << "\nA Fila não está vazia." << std::endl;
     }
-    system("pause");
     return 0;
 }

@@ -18,6 +18,5 @@ int main()
     pessoas.insert(p4, 2);
     std::cout << "\n\n\n"
               << pessoas << std::endl;
-    system("pause");
     return 0;
 }

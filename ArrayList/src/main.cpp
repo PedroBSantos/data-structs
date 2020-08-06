@@ -13,6 +13,5 @@ int main()
     std::cout << arrayList << std::endl;
     arrayList.sort();
     std::cout << arrayList << std::endl;
-    system("pause");
     return 0;
 }

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Pilha/include/no.h
+
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Pilha/include/pilha.h
+no.h
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Pilha/include/no.h
+
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Pilha/src/main.cpp
+../include/pilha.h
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Pilha/include/pilha.h
+ctime
+-
+iostream
+-
+locale
+-
+

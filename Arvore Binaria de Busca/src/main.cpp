@@ -26,6 +26,5 @@ int main(int argc, char *argv[])
 	std::cout << "Percurso in-ordem:  " << arvoreBinaria.inOrder() << std::endl;
 	std::cout << "Percurso pos-ordem: " << arvoreBinaria.postOrder() << std::endl;
 
-	system("pause");
 	return 0;
 }

@@ -20,7 +20,5 @@ int main(int argc, char const *argv[])
     {
         std::cout << fila.remove() << "\t";
     }
-    std::cout << "\n";
-    system("pause");
     return 0;
 }

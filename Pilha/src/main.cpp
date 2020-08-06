@@ -45,6 +45,5 @@ int main()
     {
         std::cout << "\nA pilha não está vazia." << std::endl;
     }
-    system("pause");
     return 0;
 }

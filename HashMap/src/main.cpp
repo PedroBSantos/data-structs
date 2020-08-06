@@ -19,6 +19,5 @@ int main()
     pessoas.put(p5.getNome(), p5);
     std::cout << "Quantidade de elementos:\t" << pessoas.size() << std::endl;
     std::cout << pessoas << std::endl;
-    system("pause");
     return 0;
 }

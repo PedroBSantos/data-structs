@@ -1,0 +1,3 @@
+"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f CMakeFiles\arvore-vermelho-preto-c++.dir/objects.a
+"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\ar.exe" cr CMakeFiles\arvore-vermelho-preto-c++.dir/objects.a @CMakeFiles\arvore-vermelho-preto-c++.dir\objects1.rsp
+"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\arvore-vermelho-preto-c++.dir/objects.a -Wl,--no-whole-archive -o arvore-vermelho-preto-c++.exe -Wl,--out-implib,libarvore-vermelho-preto-c++.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\arvore-vermelho-preto-c++.dir\linklibs.rsp

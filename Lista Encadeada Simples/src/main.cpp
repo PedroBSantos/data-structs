@@ -14,6 +14,5 @@ int main()
     {
         std::cout << linkedList.contains(i + 1) << std::endl;
     }
-    system("pause");
     return 0;
 }
