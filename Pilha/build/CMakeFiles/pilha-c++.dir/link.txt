@@ -1,3 +1,0 @@
-G:\Languages\C++\cmake\bin\cmake.exe -E rm -f CMakeFiles\pilha-c++.dir/objects.a
-G:\Languages\C++\compilers\msys64\mingw64\bin\ar.exe cr CMakeFiles\pilha-c++.dir/objects.a @CMakeFiles\pilha-c++.dir\objects1.rsp
-G:\Languages\C++\compilers\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\pilha-c++.dir/objects.a -Wl,--no-whole-archive -o pilha-c++.exe -Wl,--out-implib,libpilha-c++.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pilha-c++.dir\linklibs.rsp
