@@ -57,10 +57,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = G:\Languages\C++\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f
+RM = G:\Languages\C++\cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas d
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CPackSourceConfig.cmake"
+	G:\Languages\C++\cmake\bin\cpack.exe --config ./CPackSourceConfig.cmake "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -85,10 +85,21 @@ package_source/fast: package_source
 
 .PHONY : package_source/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	G:\Languages\C++\cmake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cpack.exe" --config ./CPackConfig.cmake
+	G:\Languages\C++\cmake\bin\cpack.exe --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -99,7 +110,7 @@ package/fast: package
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+	G:\Languages\C++\cmake\bin\ctest.exe --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -107,21 +118,10 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	G:\Languages\C++\cmake\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -526,17 +526,17 @@ ContinuousCoverage/fast:
 .PHONY : ContinuousCoverage/fast
 
 #=============================================================================
-# Target rules for targets named array-list-c++
+# Target rules for targets named arraylist-c++
 
 # Build rule for target.
-array-list-c++: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array-list-c++
-.PHONY : array-list-c++
+arraylist-c++: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arraylist-c++
+.PHONY : arraylist-c++
 
 # fast build rule for target.
-array-list-c++/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array-list-c++.dir\build.make CMakeFiles/array-list-c++.dir/build
-.PHONY : array-list-c++/fast
+arraylist-c++/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arraylist-c++.dir\build.make CMakeFiles/arraylist-c++.dir/build
+.PHONY : arraylist-c++/fast
 
 src/main.obj: src/main.cpp.obj
 
@@ -544,7 +544,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array-list-c++.dir\build.make CMakeFiles/array-list-c++.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arraylist-c++.dir\build.make CMakeFiles/arraylist-c++.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -553,7 +553,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array-list-c++.dir\build.make CMakeFiles/array-list-c++.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arraylist-c++.dir\build.make CMakeFiles/arraylist-c++.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -562,7 +562,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array-list-c++.dir\build.make CMakeFiles/array-list-c++.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arraylist-c++.dir\build.make CMakeFiles/arraylist-c++.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -604,7 +604,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... array-list-c++
+	@echo ... arraylist-c++
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

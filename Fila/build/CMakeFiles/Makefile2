@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = G:\Languages\C++\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f
+RM = G:\Languages\C++\cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -444,12 +444,12 @@ CMakeFiles/NightlyMemCheck.dir/clean:
 CMakeFiles/fila-c++.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fila-c++.dir\build.make CMakeFiles/fila-c++.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fila-c++.dir\build.make CMakeFiles/fila-c++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila\build\CMakeFiles" --progress-num=1,2,3,4 "Built target fila-c++"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila\build\CMakeFiles" --progress-num=1,2 "Built target fila-c++"
 .PHONY : CMakeFiles/fila-c++.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fila-c++.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila\build\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila\build\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/fila-c++.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila\build\CMakeFiles" 0
 .PHONY : CMakeFiles/fila-c++.dir/rule

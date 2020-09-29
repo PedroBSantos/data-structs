@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fila-c++.dir/src/fila.cpp.obj"
   "CMakeFiles/fila-c++.dir/src/main.cpp.obj"
-  "CMakeFiles/fila-c++.dir/src/no.cpp.obj"
   "fila-c++.exe"
   "fila-c++.exe.manifest"
   "fila-c++.pdb"

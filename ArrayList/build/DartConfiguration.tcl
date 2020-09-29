@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "G:/Compiladores e Interpretadores/C++/cmake-3.18.1-win64-x64/bin/cmake.exe" "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList"
-MakeCommand: G:/Compiladores\ e\ Interpretadores/C++/cmake-3.18.1-win64-x64/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "G:/Languages/C++/cmake/bin/cmake.exe" "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList"
+MakeCommand: G:/Languages/C++/cmake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: G:/Compiladores e Interpretadores/C++/msys64/mingw64/bin/g++.exe
-CompilerVersion: 10.1.0
+Compiler: G:/Languages/C++/compilers/msys64/mingw64/bin/g++.exe
+CompilerVersion: 10.2.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -78,7 +78,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: G:/Compiladores e Interpretadores/C++/msys64/mingw64/bin/gcov.exe
+CoverageCommand: G:/Languages/C++/compilers/msys64/mingw64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Cluster commands

@@ -1,17 +1,7 @@
 [
 {
   "directory": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/build",
-  "command": "\"G:\\Compiladores e Interpretadores\\C++\\msys64\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\fila-c++.dir\\src\\main.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Fila\\src\\main.cpp\"",
+  "command": "G:\\Languages\\C++\\compilers\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\fila-c++.dir\\src\\main.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Fila\\src\\main.cpp\"",
   "file": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/src/main.cpp"
-},
-{
-  "directory": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/build",
-  "command": "\"G:\\Compiladores e Interpretadores\\C++\\msys64\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\fila-c++.dir\\src\\no.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Fila\\src\\no.cpp\"",
-  "file": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/src/no.cpp"
-},
-{
-  "directory": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/build",
-  "command": "\"G:\\Compiladores e Interpretadores\\C++\\msys64\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\fila-c++.dir\\src\\fila.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Fila\\src\\fila.cpp\"",
-  "file": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/src/fila.cpp"
 }
 ]

@@ -52,10 +52,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = G:\Languages\C++\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f
+RM = G:\Languages\C++\cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,15 +78,15 @@ include CMakeFiles/lista-encadeada-simples-c++.dir/flags.make
 CMakeFiles/lista-encadeada-simples-c++.dir/src/main.cpp.obj: CMakeFiles/lista-encadeada-simples-c++.dir/flags.make
 CMakeFiles/lista-encadeada-simples-c++.dir/src/main.cpp.obj: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Encadeada Simples\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lista-encadeada-simples-c++.dir/src/main.cpp.obj"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lista-encadeada-simples-c++.dir\src\main.cpp.obj -c "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Encadeada Simples\src\main.cpp"
+	G:\Languages\C++\compilers\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lista-encadeada-simples-c++.dir\src\main.cpp.obj -c "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Encadeada Simples\src\main.cpp"
 
 CMakeFiles/lista-encadeada-simples-c++.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lista-encadeada-simples-c++.dir/src/main.cpp.i"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Encadeada Simples\src\main.cpp" > CMakeFiles\lista-encadeada-simples-c++.dir\src\main.cpp.i
+	G:\Languages\C++\compilers\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Encadeada Simples\src\main.cpp" > CMakeFiles\lista-encadeada-simples-c++.dir\src\main.cpp.i
 
 CMakeFiles/lista-encadeada-simples-c++.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lista-encadeada-simples-c++.dir/src/main.cpp.s"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Encadeada Simples\src\main.cpp" -o CMakeFiles\lista-encadeada-simples-c++.dir\src\main.cpp.s
+	G:\Languages\C++\compilers\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Encadeada Simples\src\main.cpp" -o CMakeFiles\lista-encadeada-simples-c++.dir\src\main.cpp.s
 
 # Object files for target lista-encadeada-simples-c++
 lista__encadeada__simples__c_______OBJECTS = \

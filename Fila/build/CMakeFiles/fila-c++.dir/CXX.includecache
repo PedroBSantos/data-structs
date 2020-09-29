@@ -12,10 +12,6 @@ G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/include
 
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/include/no.h
 
-G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/src/fila.cpp
-../include/fila.h
-G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/include/fila.h
-
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/src/main.cpp
 ../include/fila.h
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/include/fila.h
@@ -25,8 +21,4 @@ iostream
 -
 locale
 -
-
-G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/src/no.cpp
-../include/no.h
-G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Fila/include/no.h
 

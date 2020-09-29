@@ -52,10 +52,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = G:\Languages\C++\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f
+RM = G:\Languages\C++\cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas d
 include CMakeFiles/ExperimentalCoverage.dir/progress.make
 
 CMakeFiles/ExperimentalCoverage:
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\ctest.exe" -D ExperimentalCoverage
+	G:\Languages\C++\cmake\bin\ctest.exe -D ExperimentalCoverage
 
 ExperimentalCoverage: CMakeFiles/ExperimentalCoverage
 ExperimentalCoverage: CMakeFiles/ExperimentalCoverage.dir/build.make

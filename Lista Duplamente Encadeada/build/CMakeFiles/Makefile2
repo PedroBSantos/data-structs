@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = G:\Languages\C++\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f
+RM = G:\Languages\C++\cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lista-duplamente-encadeada-c++.dir/all
+all: CMakeFiles/lista-encadeada-c++.dir/all
 
 .PHONY : all
 
@@ -109,7 +109,7 @@ clean: CMakeFiles/ContinuousConfigure.dir/clean
 clean: CMakeFiles/ContinuousBuild.dir/clean
 clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
-clean: CMakeFiles/lista-duplamente-encadeada-c++.dir/clean
+clean: CMakeFiles/lista-encadeada-c++.dir/clean
 
 .PHONY : clean
 
@@ -870,31 +870,31 @@ CMakeFiles/ContinuousCoverage.dir/clean:
 .PHONY : CMakeFiles/ContinuousCoverage.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lista-duplamente-encadeada-c++.dir
+# Target rules for target CMakeFiles/lista-encadeada-c++.dir
 
 # All Build rule for target.
-CMakeFiles/lista-duplamente-encadeada-c++.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista-duplamente-encadeada-c++.dir\build.make CMakeFiles/lista-duplamente-encadeada-c++.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista-duplamente-encadeada-c++.dir\build.make CMakeFiles/lista-duplamente-encadeada-c++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Duplamente Encadeada\build\CMakeFiles" --progress-num=1,2,3 "Built target lista-duplamente-encadeada-c++"
-.PHONY : CMakeFiles/lista-duplamente-encadeada-c++.dir/all
+CMakeFiles/lista-encadeada-c++.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista-encadeada-c++.dir\build.make CMakeFiles/lista-encadeada-c++.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista-encadeada-c++.dir\build.make CMakeFiles/lista-encadeada-c++.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Duplamente Encadeada\build\CMakeFiles" --progress-num=1,2,3 "Built target lista-encadeada-c++"
+.PHONY : CMakeFiles/lista-encadeada-c++.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lista-duplamente-encadeada-c++.dir/rule: cmake_check_build_system
+CMakeFiles/lista-encadeada-c++.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Duplamente Encadeada\build\CMakeFiles" 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lista-duplamente-encadeada-c++.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lista-encadeada-c++.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Lista Duplamente Encadeada\build\CMakeFiles" 0
-.PHONY : CMakeFiles/lista-duplamente-encadeada-c++.dir/rule
+.PHONY : CMakeFiles/lista-encadeada-c++.dir/rule
 
 # Convenience name for target.
-lista-duplamente-encadeada-c++: CMakeFiles/lista-duplamente-encadeada-c++.dir/rule
+lista-encadeada-c++: CMakeFiles/lista-encadeada-c++.dir/rule
 
-.PHONY : lista-duplamente-encadeada-c++
+.PHONY : lista-encadeada-c++
 
 # clean rule for target.
-CMakeFiles/lista-duplamente-encadeada-c++.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista-duplamente-encadeada-c++.dir\build.make CMakeFiles/lista-duplamente-encadeada-c++.dir/clean
-.PHONY : CMakeFiles/lista-duplamente-encadeada-c++.dir/clean
+CMakeFiles/lista-encadeada-c++.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista-encadeada-c++.dir\build.make CMakeFiles/lista-encadeada-c++.dir/clean
+.PHONY : CMakeFiles/lista-encadeada-c++.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

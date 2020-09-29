@@ -1,4 +1,4 @@
-set(CMAKE_RC_COMPILER "G:/Compiladores e Interpretadores/C++/msys64/mingw64/bin/windres.exe")
+set(CMAKE_RC_COMPILER "G:/Languages/C++/compilers/msys64/mingw64/bin/windres.exe")
 set(CMAKE_RC_COMPILER_ARG1 "")
 set(CMAKE_RC_COMPILER_LOADED 1)
 set(CMAKE_RC_SOURCE_FILE_EXTENSIONS rc;RC)

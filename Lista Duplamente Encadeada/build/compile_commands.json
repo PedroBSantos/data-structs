@@ -1,12 +1,12 @@
 [
 {
   "directory": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Lista Duplamente Encadeada/build",
-  "command": "\"G:\\Compiladores e Interpretadores\\C++\\msys64\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\lista-duplamente-encadeada-c++.dir\\src\\main.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Lista Duplamente Encadeada\\src\\main.cpp\"",
+  "command": "G:\\Languages\\C++\\compilers\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lista-encadeada-c++.dir\\src\\main.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Lista Duplamente Encadeada\\src\\main.cpp\"",
   "file": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Lista Duplamente Encadeada/src/main.cpp"
 },
 {
   "directory": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Lista Duplamente Encadeada/build",
-  "command": "\"G:\\Compiladores e Interpretadores\\C++\\msys64\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\lista-duplamente-encadeada-c++.dir\\src\\pessoa.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Lista Duplamente Encadeada\\src\\pessoa.cpp\"",
+  "command": "G:\\Languages\\C++\\compilers\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lista-encadeada-c++.dir\\src\\pessoa.cpp.obj -c \"G:\\Dev\\C++ Programs\\Projetos Visual Studio Code\\Estruturas de Dados\\Lista Duplamente Encadeada\\src\\pessoa.cpp\"",
   "file": "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Lista Duplamente Encadeada/src/pessoa.cpp"
 }
 ]

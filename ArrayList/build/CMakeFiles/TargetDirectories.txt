@@ -27,8 +27,8 @@ G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/bu
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/ContinuousBuild.dir
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/ContinuousTest.dir
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/ContinuousCoverage.dir
-G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/array-list-c++.dir
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/edit_cache.dir
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/arraylist-c++.dir
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/package.dir
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/test.dir
-G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/edit_cache.dir
 G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/ArrayList/build/CMakeFiles/rebuild_cache.dir

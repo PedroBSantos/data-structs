@@ -52,10 +52,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = G:\Languages\C++\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f
+RM = G:\Languages\C++\cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,59 +78,29 @@ include CMakeFiles/arvore-binaria-de-busca-c++.dir/flags.make
 CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.obj: CMakeFiles/arvore-binaria-de-busca-c++.dir/flags.make
 CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.obj: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.obj"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\arvore-binaria-de-busca-c++.dir\src\main.cpp.obj -c "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\main.cpp"
+	G:\Languages\C++\compilers\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\arvore-binaria-de-busca-c++.dir\src\main.cpp.obj -c "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\main.cpp"
 
 CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.i"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\main.cpp" > CMakeFiles\arvore-binaria-de-busca-c++.dir\src\main.cpp.i
+	G:\Languages\C++\compilers\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\main.cpp" > CMakeFiles\arvore-binaria-de-busca-c++.dir\src\main.cpp.i
 
 CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.s"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\main.cpp" -o CMakeFiles\arvore-binaria-de-busca-c++.dir\src\main.cpp.s
-
-CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.obj: CMakeFiles/arvore-binaria-de-busca-c++.dir/flags.make
-CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.obj: ../src/arvore_binaria.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.obj"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\arvore-binaria-de-busca-c++.dir\src\arvore_binaria.cpp.obj -c "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\arvore_binaria.cpp"
-
-CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.i"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\arvore_binaria.cpp" > CMakeFiles\arvore-binaria-de-busca-c++.dir\src\arvore_binaria.cpp.i
-
-CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.s"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\arvore_binaria.cpp" -o CMakeFiles\arvore-binaria-de-busca-c++.dir\src\arvore_binaria.cpp.s
-
-CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.obj: CMakeFiles/arvore-binaria-de-busca-c++.dir/flags.make
-CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.obj: ../src/no.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.obj"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\arvore-binaria-de-busca-c++.dir\src\no.cpp.obj -c "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\no.cpp"
-
-CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.i"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\no.cpp" > CMakeFiles\arvore-binaria-de-busca-c++.dir\src\no.cpp.i
-
-CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.s"
-	"G:\Compiladores e Interpretadores\C++\msys64\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\no.cpp" -o CMakeFiles\arvore-binaria-de-busca-c++.dir\src\no.cpp.s
+	G:\Languages\C++\compilers\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\src\main.cpp" -o CMakeFiles\arvore-binaria-de-busca-c++.dir\src\main.cpp.s
 
 # Object files for target arvore-binaria-de-busca-c++
 arvore__binaria__de__busca__c_______OBJECTS = \
-"CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.obj" \
-"CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.obj" \
-"CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.obj"
+"CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.obj"
 
 # External object files for target arvore-binaria-de-busca-c++
 arvore__binaria__de__busca__c_______EXTERNAL_OBJECTS =
 
 arvore-binaria-de-busca-c++.exe: CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.obj
-arvore-binaria-de-busca-c++.exe: CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.obj
-arvore-binaria-de-busca-c++.exe: CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.obj
 arvore-binaria-de-busca-c++.exe: CMakeFiles/arvore-binaria-de-busca-c++.dir/build.make
 arvore-binaria-de-busca-c++.exe: CMakeFiles/arvore-binaria-de-busca-c++.dir/linklibs.rsp
 arvore-binaria-de-busca-c++.exe: CMakeFiles/arvore-binaria-de-busca-c++.dir/objects1.rsp
 arvore-binaria-de-busca-c++.exe: CMakeFiles/arvore-binaria-de-busca-c++.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable arvore-binaria-de-busca-c++.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Arvore Binaria de Busca\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable arvore-binaria-de-busca-c++.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\arvore-binaria-de-busca-c++.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

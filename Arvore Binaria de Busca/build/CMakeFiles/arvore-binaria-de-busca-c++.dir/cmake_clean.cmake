@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.obj"
   "CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.obj"
-  "CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.obj"
   "arvore-binaria-de-busca-c++.exe"
   "arvore-binaria-de-busca-c++.exe.manifest"
   "arvore-binaria-de-busca-c++.pdb"

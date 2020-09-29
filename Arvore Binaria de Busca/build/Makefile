@@ -57,10 +57,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = G:\Languages\C++\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f
+RM = G:\Languages\C++\cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas d
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore Binaria de Busca/build/CPackSourceConfig.cmake"
+	G:\Languages\C++\cmake\bin\cpack.exe --config ./CPackSourceConfig.cmake "G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore Binaria de Busca/build/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -88,7 +88,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cpack.exe" --config ./CPackConfig.cmake
+	G:\Languages\C++\cmake\bin\cpack.exe --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -99,7 +99,7 @@ package/fast: package
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+	G:\Languages\C++\cmake\bin\ctest.exe --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -110,7 +110,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	G:\Languages\C++\cmake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -121,7 +121,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	G:\Languages\C++\cmake\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -538,33 +538,6 @@ arvore-binaria-de-busca-c++/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arvore-binaria-de-busca-c++.dir\build.make CMakeFiles/arvore-binaria-de-busca-c++.dir/build
 .PHONY : arvore-binaria-de-busca-c++/fast
 
-src/arvore_binaria.obj: src/arvore_binaria.cpp.obj
-
-.PHONY : src/arvore_binaria.obj
-
-# target to build an object file
-src/arvore_binaria.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arvore-binaria-de-busca-c++.dir\build.make CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.obj
-.PHONY : src/arvore_binaria.cpp.obj
-
-src/arvore_binaria.i: src/arvore_binaria.cpp.i
-
-.PHONY : src/arvore_binaria.i
-
-# target to preprocess a source file
-src/arvore_binaria.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arvore-binaria-de-busca-c++.dir\build.make CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.i
-.PHONY : src/arvore_binaria.cpp.i
-
-src/arvore_binaria.s: src/arvore_binaria.cpp.s
-
-.PHONY : src/arvore_binaria.s
-
-# target to generate assembly for a file
-src/arvore_binaria.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arvore-binaria-de-busca-c++.dir\build.make CMakeFiles/arvore-binaria-de-busca-c++.dir/src/arvore_binaria.cpp.s
-.PHONY : src/arvore_binaria.cpp.s
-
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -591,33 +564,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arvore-binaria-de-busca-c++.dir\build.make CMakeFiles/arvore-binaria-de-busca-c++.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/no.obj: src/no.cpp.obj
-
-.PHONY : src/no.obj
-
-# target to build an object file
-src/no.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arvore-binaria-de-busca-c++.dir\build.make CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.obj
-.PHONY : src/no.cpp.obj
-
-src/no.i: src/no.cpp.i
-
-.PHONY : src/no.i
-
-# target to preprocess a source file
-src/no.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arvore-binaria-de-busca-c++.dir\build.make CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.i
-.PHONY : src/no.cpp.i
-
-src/no.s: src/no.cpp.s
-
-.PHONY : src/no.s
-
-# target to generate assembly for a file
-src/no.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arvore-binaria-de-busca-c++.dir\build.make CMakeFiles/arvore-binaria-de-busca-c++.dir/src/no.cpp.s
-.PHONY : src/no.cpp.s
 
 # Help Target
 help:
@@ -659,15 +605,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... arvore-binaria-de-busca-c++
-	@echo ... src/arvore_binaria.obj
-	@echo ... src/arvore_binaria.i
-	@echo ... src/arvore_binaria.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/no.obj
-	@echo ... src/no.i
-	@echo ... src/no.s
 .PHONY : help
 
 

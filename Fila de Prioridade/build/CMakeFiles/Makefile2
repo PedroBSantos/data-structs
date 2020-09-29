@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe"
+CMAKE_COMMAND = G:\Languages\C++\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "G:\Compiladores e Interpretadores\C++\cmake-3.18.1-win64-x64\bin\cmake.exe" -E rm -f
+RM = G:\Languages\C++\cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/fila-de-prioridade-c++.dir/all
+all: CMakeFiles/fila-prioridade-c++.dir/all
 
 .PHONY : all
 
@@ -109,7 +109,7 @@ clean: CMakeFiles/ContinuousConfigure.dir/clean
 clean: CMakeFiles/ContinuousBuild.dir/clean
 clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
-clean: CMakeFiles/fila-de-prioridade-c++.dir/clean
+clean: CMakeFiles/fila-prioridade-c++.dir/clean
 
 .PHONY : clean
 
@@ -870,31 +870,31 @@ CMakeFiles/ContinuousCoverage.dir/clean:
 .PHONY : CMakeFiles/ContinuousCoverage.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/fila-de-prioridade-c++.dir
+# Target rules for target CMakeFiles/fila-prioridade-c++.dir
 
 # All Build rule for target.
-CMakeFiles/fila-de-prioridade-c++.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fila-de-prioridade-c++.dir\build.make CMakeFiles/fila-de-prioridade-c++.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fila-de-prioridade-c++.dir\build.make CMakeFiles/fila-de-prioridade-c++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila de Prioridade\build\CMakeFiles" --progress-num=1,2,3 "Built target fila-de-prioridade-c++"
-.PHONY : CMakeFiles/fila-de-prioridade-c++.dir/all
+CMakeFiles/fila-prioridade-c++.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fila-prioridade-c++.dir\build.make CMakeFiles/fila-prioridade-c++.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fila-prioridade-c++.dir\build.make CMakeFiles/fila-prioridade-c++.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila de Prioridade\build\CMakeFiles" --progress-num=1,2 "Built target fila-prioridade-c++"
+.PHONY : CMakeFiles/fila-prioridade-c++.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fila-de-prioridade-c++.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila de Prioridade\build\CMakeFiles" 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/fila-de-prioridade-c++.dir/all
+CMakeFiles/fila-prioridade-c++.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila de Prioridade\build\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/fila-prioridade-c++.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Dev\C++ Programs\Projetos Visual Studio Code\Estruturas de Dados\Fila de Prioridade\build\CMakeFiles" 0
-.PHONY : CMakeFiles/fila-de-prioridade-c++.dir/rule
+.PHONY : CMakeFiles/fila-prioridade-c++.dir/rule
 
 # Convenience name for target.
-fila-de-prioridade-c++: CMakeFiles/fila-de-prioridade-c++.dir/rule
+fila-prioridade-c++: CMakeFiles/fila-prioridade-c++.dir/rule
 
-.PHONY : fila-de-prioridade-c++
+.PHONY : fila-prioridade-c++
 
 # clean rule for target.
-CMakeFiles/fila-de-prioridade-c++.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fila-de-prioridade-c++.dir\build.make CMakeFiles/fila-de-prioridade-c++.dir/clean
-.PHONY : CMakeFiles/fila-de-prioridade-c++.dir/clean
+CMakeFiles/fila-prioridade-c++.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fila-prioridade-c++.dir\build.make CMakeFiles/fila-prioridade-c++.dir/clean
+.PHONY : CMakeFiles/fila-prioridade-c++.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
