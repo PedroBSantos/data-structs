@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore AVL/include/node.h
+
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore AVL/include/tree.h
+node.h
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore AVL/include/node.h
+sstream
+-
+
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore AVL/src/main.cpp
+iostream
+-
+../include/tree.h
+G:/Dev/C++ Programs/Projetos Visual Studio Code/Estruturas de Dados/Arvore AVL/include/tree.h
+

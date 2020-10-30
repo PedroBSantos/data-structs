@@ -212,32 +212,13 @@ inline void Tree<T>::auxRemove(T element, Node<T>* root) {
             }
             delete root;
             this->balancTreeRemove(unbalanced);
+            this->size--;
         }
         else if (element > root->getData()) {
             this->auxRemove(element, root->getRight());
-            // this->balancFactor(root);
-            // if (root->getBf() == -2) {
-            //     if (element > root->getData()) {
-            //         leftRotation(root);
-            //     }
-            //     else {
-            //         rightRotation(root->getRight());
-            //         leftRotation(root);
-            //     }
-            // }
         }
         else {
             this->auxRemove(element, root->getLeft());
-            // this->balancFactor(root);
-            // if (root->getBf() == 2) {
-            //     if (element < root->getData()) {
-            //         rightRotation(root);
-            //     }
-            //     else {
-            //         leftRotation(root->getLeft());
-            //         rightRotation(root);
-            //     }
-            // }
         }
     }
 }
@@ -253,8 +234,6 @@ inline int Tree<T>::balancFactor(Node<T>* node) {
         if (node->getRight() != nullptr) {
             heightRight = 1 + balancFactor(node->getRight());
         }
-        // node->setBf(heightLeft - heightRight);
-        // node->setHeight(heightLeft > heightRight ? heightLeft : heightRight);
         node->setHeightLeft(heightLeft);
         node->setHeightRight(heightRight);
     }
