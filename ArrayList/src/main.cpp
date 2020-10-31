@@ -1,17 +1,17 @@
-#include "../include/array_list.h"
+#include "../include/arraylist.h"
 #include <ctime>
 #include <iostream>
 
 int main()
 {
     srand((unsigned)time(0));
-    ArrayList<int> arrayList;
+    ArrayList<int> arraylist;
     for (int i = 0; i < 20; i++)
     {
-        arrayList.add(rand() % 100);
+        arraylist.add(rand() % 100);
     }
-    std::cout << arrayList << std::endl;
-    arrayList.sort();
-    std::cout << arrayList << std::endl;
+    std::cout << arraylist << std::endl;
+    arraylist.sort();
+    std::cout << arraylist << std::endl;
     return 0;
 }
