@@ -1,5 +1,5 @@
-#ifndef Queue_H
-#define Queue_H
+#ifndef QUEUE_H
+#define QUEUE_H
 
 #include <malloc.h>
 
@@ -18,11 +18,11 @@ private:
     void increaseLength();
 
 public:
-    Queue(int tamanho = 5);
-    Queue(const Queue<T>& Queue);
+    Queue(int length = 5);
+    Queue(const Queue<T>& queue);
     ~Queue();
     int count();
-    void add(T elemento);
+    void add(T element);
     T remove();
     bool empty();
 };
@@ -117,13 +117,13 @@ inline void Queue<T>::downHeap(int i)
 }
 
 template <typename T>
-inline void Queue<T>::add(T elemento)
+inline void Queue<T>::add(T element)
 {
     if (this->size == this->length)
     {
         this->increaseLength();
     }
-    this->elements[this->size] = elemento;
+    this->elements[this->size] = element;
     this->upHeap(this->size);
     this->size++;
 }
