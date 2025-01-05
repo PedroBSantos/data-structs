@@ -55,14 +55,14 @@ template <typename T>
 int BloomFilter<T>::f(T element)
 {
     std::hash<T> hash_fn;
-    return std::abs((hash_fn(element) * 5 / 2)) % this->lenghtOfBitsArray;
+    return std::abs((long)(hash_fn(element) * 5 / 2)) % this->lenghtOfBitsArray;
 }
 
 template <typename T>
 int BloomFilter<T>::h(T element)
 {
     std::hash<T> hash_fn;
-    return std::abs((hash_fn(element) + 3 / 33)) % this->lenghtOfBitsArray;
+    return std::abs((long)(hash_fn(element) + 3 / 33)) % this->lenghtOfBitsArray;
 }
 
 template <typename T>
