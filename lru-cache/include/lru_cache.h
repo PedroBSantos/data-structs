@@ -14,7 +14,7 @@ private:
 public:
     LRUCache(int capacity);
     LRUCache(const LRUCache<T>& other);
-    virtual ~LRUCache() = default;
+    virtual ~LRUCache();
     int size();
     void put(int key, T value);
     T get(int key);
@@ -30,6 +30,14 @@ template <typename T>
 LRUCache<T>::LRUCache(const LRUCache<T>& other) {
     this->capacity = other.capacity;
     this->entries = other.entries;
+}
+
+template <typename T>
+LRUCache<T>::~LRUCache() {
+    for (auto mapEntry : this->entries) {
+        if (mapEntry.second != nullptr)
+            delete mapEntry.second;
+    }
 }
 
 template <typename T>
